@@ -1,0 +1,7 @@
+params:
+  num_image_pairs: 25
+  num_matches_per_image_pair: 100
+
+networks:
+  shirt_hanging_d16_distributional_sym:
+    path_to_network_params: pytorch_dense_correspondence/pdc/trained_models/tutorials/shirt_hanging_d16_distributional_sym/005001.pth
